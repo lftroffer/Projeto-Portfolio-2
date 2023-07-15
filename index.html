@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfólio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Hubballi&family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!--Cabeçalho-->
+    <div class="container"> 
+        <div id="cabeçalho">
+            Portfolio
+        </div>
+        <div id="menu">
+            <ul>
+                <li><a href="#serviços">Meus Serviços</a></li>
+                <li><a href="#contato">Fale Comigo</a></li>
+                <li><a href="#cabeçalho">Portfolio</a></li>
+            </ul>
+        </div> 
+    </div>
+    <!--Apresentação-->
+    <div class="container">
+        <div id="cabeçalhoImg">
+            <img src="./Maria/maria.svg" alt="">
+        </div>    
+        <div id="apresentaçao">
+            <h1>
+                Olá, meu nome <br>
+                é Maria
+            </h1>
+            <p>Sou programadora e gostaria de apresentar meu <br>
+                trabalho para você através deste portfólio.</p>
+            <a href="#serviços"> <button id="buttonOrange">Meus Serviços</button></a>
+        </div>    
+    </div>
+    <!--Clientes-->
+    <div class="container" id="sessaoClientes">
+        <div id="textoClientes">Alguns dos <br>
+            meus clientes
+        </div>              
+        <div class="logoClientes">
+            <img src="./clientes/apple.svg" alt="">
+        </div>
+        <div class="logoClientes">
+            <img src="./clientes/slack.svg" alt="">
+        </div>
+        <div class="logoClientes">
+            <img src="./clientes/spotify.svg" alt="">
+        </div>       
+    </div>
+    <!--Contato-->
+    <div class="container" id="contato">
+        <div id="contatoTexto">
+            <h2 class="vermelho">
+                Economize seu tempo            
+            </h2>
+            <h1 class="preto">
+                Ganhe mais dinheiro                
+            </h1>
+            <p class="cinza">
+                Digite aqui seu endereço de e-mail. Eu entrarei em <br>
+                contato para fornecer um diagnóstico gratuito.
+            </p>
+            <p>
+                <form action="https://formspree.io/f/xeqbjbog"method="POST">
+                <input type="text" placeholder="E-mail" name="contactEmail" required="required">
+            </p>
+            <button id="buttonBlue" type="submit">Enviar</button>
+        </div>
+        <div id="contatoImg">
+            <img src="./contato/imgcontato.svg" alt="">
+        </div>
+    </div>
+    <!--Meu trabalho-->
+    <div class="container">
+        <div>
+            <h2 class="vermelho">Conheça meu trabalho</h2>
+            <h1 class="preto">Portfolio</h1>
+        </div>
+    </div>
+    <div class="container" >
+        <div class="trabalhosImg">
+            <img src="./trabalhos-img/trabalho1.svg" alt="">
+        </div>    
+        <div class="trabalhosImg" id="trabalho2">
+            <img src="./trabalhos-img/trabalho2.svg" alt="">
+        </div>
+        <div class="trabalhosImg" id="trabalho3">    
+            <img src="./trabalhos-img/trabalho3.svg" alt="">
+        </div>        
+    </div>
+    <!--Meus Serviços-->
+    <div class="container">
+        <div id="meusServiços">
+            <h2 class="vermelho">
+                Conheça
+            </h2>
+            <h1 class="preto">
+                Meus Serviços                
+            </h1>
+            <p class="cinza">
+                Vou ajudar a sua empresa a <br>
+                alcançar grandes resultados.
+            </p>
+        </div>
+    </div>
+    <div class="container" id="serviços">
+        <div>
+            <img src="./serviços/logo1.svg" alt="">
+            <h2 class="preto">
+                Criação de Sites
+            </h2>
+            <p class="cinza">
+                Desenvolvo seu site inteiro <br>
+                do zero e te entrego prontinho.
+            </p>
+        </div>
+        <div>
+            <img src="./serviços/logo2.svg" alt="">
+            <h2 class="preto">
+                Email Marketing
+            </h2>
+            <p class="cinza">
+                Gerenciar campanhas é difícil. <br>
+                Conte comigo para te ajudar.
+            </p>
+        </div>
+        <div>
+            <img src="./serviços/logo3.svg" alt="">
+            <h2 class="preto">
+                Consultoria
+            </h2>
+            <p class="cinza">
+                Te ajudo a organizar sua empresa <br>
+                e melhorar seus resultados.
+            </p>
+        </div>
+    </div>
+</body>
+</html>
